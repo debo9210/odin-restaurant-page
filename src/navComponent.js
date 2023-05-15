@@ -1,3 +1,5 @@
+import '../css/navStyle.css';
+
 export default function navComponent() {
   const nav = document.createElement('nav');
   nav.className = 'nav-container';

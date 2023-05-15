@@ -1,11 +1,12 @@
-import Component from './mainComponent';
+import MainComponent from './mainComponent';
 import NavComponent from './navComponent';
 import MenuComponent from './menuComponent';
 import AboutComponent from './aboutComponent';
 import ContactComponent from './contactComponent';
 import FooterComponent from './footerComponent';
+import '../css/genStyle.css';
 
-let component = Component();
+let component = MainComponent();
 const contentEntry = document.querySelector('#content');
 
 contentEntry.append(NavComponent(), component, FooterComponent());
