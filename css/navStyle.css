@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.nav-container {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 100px; */
+  padding: 20px;
+  background-color: rgb(20, 16, 16);
+  position: fixed;
+  width: 100%;
+}
+
+.brand {
+  font-size: 60px;
+  font-family: 'Courgette', cursive;
+  cursor: pointer;
+  color: beige;
+  background-color: transparent;
+}
+
+.brand:hover {
+  font-size: 65px;
+}
+
+.link-container {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  background: transparent;
+}
+
+.link-container > p {
+  color: beige;
+  cursor: pointer;
+  font-size: 24px;
+  background: transparent;
+}
+
+.link-container > p:hover {
+  color: rgb(170, 170, 164);
+}

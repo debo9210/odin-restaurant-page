@@ -1,0 +1,17 @@
+.footer-container {
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  position: fixed; /*new*/
+  bottom: 0; /*new*/
+  overflow: hidden; /*new*/
+  background-color: rgb(20, 16, 16);
+}
+
+.footer-container p {
+  background-color: transparent;
+  font: 18px;
+}
