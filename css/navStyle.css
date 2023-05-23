@@ -10,6 +10,7 @@
   background-color: rgb(20, 16, 16);
   position: fixed;
   width: 100%;
+  top: 0;
 }
 
 .brand {

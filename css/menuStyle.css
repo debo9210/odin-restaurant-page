@@ -1,0 +1,49 @@
+.menuContainer {
+  height: 500px;
+  /* border: 3px solid red; */
+  margin-top: 115px;
+  overflow-x: auto;
+}
+
+.menuList {
+  /* border: 1px solid blue; */
+  width: 50%;
+  margin: 0 auto 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuList h2 {
+  font-size: 60px;
+  margin: 60px 0 0 0;
+  padding: 0 20px;
+  border-bottom: 3px solid;
+}
+
+.menuDisplay {
+  /* border: 1px solid orangered; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menuDisplay h4 {
+  font-size: 30px;
+  margin: 30px 0 10px 0;
+}
+
+.menuDisplay p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menuDisplay small {
+  font-size: 18px;
+  border-bottom: 2px solid;
+  padding: 0 150px 20px 150px;
+  /* margin-bottom: 20px; */
+}
