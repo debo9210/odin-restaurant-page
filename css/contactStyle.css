@@ -1,0 +1,31 @@
+.contactContainer {
+  /* border: 2px solid red; */
+  height: 500px;
+  margin-top: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.addressContainer,
+.emailContainer,
+.phoneContainer {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+.contactContainer h4 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contactContainer p {
+  font-size: 24px;
+}

@@ -1,9 +1,16 @@
+import '../css/aboutStyle.css';
+
 export default function aboutComponent() {
   const element = document.createElement('div');
+  element.className = 'aboutContainer';
 
-  const test = document.createElement('p');
-  test.textContent = 'About content here';
+  const title = document.createElement('h3');
+  title.textContent = 'About';
 
-  element.append(test);
+  const about = document.createElement('p');
+  about.textContent =
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
+
+  element.append(title, about);
   return element;
 }
